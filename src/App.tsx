@@ -1,7 +1,7 @@
 import React from 'react'
-import logo from './logo.svg'
-import './App.css'
-import useBearStore from './store/bearStore'
+import logo from 'logo.svg'
+import 'App.css'
+import useBearStore from 'store/bearStore'
 
 const App = () => {
   const { bears, increasePopulation } = useBearStore()
